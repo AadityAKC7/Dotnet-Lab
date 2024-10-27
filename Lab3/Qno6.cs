@@ -29,8 +29,6 @@ class Program
         {
             Console.Write("Enter your age: ");
             int age = Convert.ToInt32(Console.ReadLine());
-
-            // Call the method to check age
             CheckAge(age);
         }
         catch (InvalidAgeException ex)

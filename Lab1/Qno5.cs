@@ -22,10 +22,7 @@ class Program
             result = num1 * num2;
         else if (op == '/')
         {
-            if (num2 != 0)
-                result = num1 / num2;
-            else
-                Console.WriteLine("Error: Division by zero.");
+            result = num1 / num2;
         }
         else
             Console.WriteLine("Error: Invalid operator.");
